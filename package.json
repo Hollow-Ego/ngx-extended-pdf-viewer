@@ -28,7 +28,8 @@
     "jest": "ng test",
     "generate-sbom": "cyclonedx-npm --output-file sbom.json --mc-type library",
     "serve:ssr:showcase": "node dist/showcase/server/server.mjs",
-    "serve:showcase": "ng serve showcase"
+    "serve:showcase": "ng serve showcase",
+    "add-documentation-page": "schematics ./projects/showcase-schematics:documentationPage"
   },
   "private": true,
   "dependencies": {
